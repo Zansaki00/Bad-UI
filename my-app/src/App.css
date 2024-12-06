@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Noto+Sans+JP:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Ponnala&display=swap");
+.txt1 {
+  color: rgb(30, 65, 189);
+  font-family: "Playwrite HR Lijeva", cursive;
+}
+.txt2 {
+  color: green;
+  font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+body {
+  background-color: #593d00;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./img/ocean3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.container1:hover {
+  background-color: #fbff1c;
+  background-image: none;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  background-image: url("./img/ocean2.jpg");
+  background-size: cover;
+}
+.container2:hover {
+  background-color: #ff0000;
+  background-image: none;
+}
+.bottomContent {
+  display: flex;
+  flex-direction: row;
+  background-image: url("./img/ocean2.jpg");
+  background-size: cover;
+  background-color: #fbff1c;
+}

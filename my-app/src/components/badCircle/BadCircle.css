@@ -1,0 +1,22 @@
+.container {
+
+  width: 200px;
+  height: 115px;
+  border-radius: 80%;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+
+  background-color: #070d5b;
+  border: 9px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container:hover{
+  background-image:url("../../img/ocean1.jpg"); 
+}
+
+.close:hover{
+display: none;
+}
